@@ -224,4 +224,5 @@ print(rmse_res)
 mat <- xgb.importance (feature_names = colnames(data),model = res)
 xgb.plot.importance (importance_matrix = mat) 
 ```
+
 Z analizy wynika, iż najistotniejszym atrybutem w predykcji rozmiaru śledzia jest łączne roczne natężenie połowów w regionie (ułamek pozostawionego narybku). Drugim co do istotności atrybutem jest dostępność planktonu -- zagęszczenie widłonogów gat. 2.
